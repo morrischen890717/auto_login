@@ -1,6 +1,5 @@
 from selenium import webdriver
 import urllib.request
-import lxml.html
 url = "https://mail.ntu.edu.tw/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.ntu.edu.tw%2fowa%2f" # NTU Mail
 driver = webdriver.Chrome()
 driver.get(url)
